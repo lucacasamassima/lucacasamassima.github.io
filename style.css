@@ -49,17 +49,12 @@ body {
 }
 
 .project{
-	width: 298px;
+	width: 290px;
+	height: 280px;
 	border: 1px solid #c1c1c1;
 	margin: 20px 10px;
 	padding: 0 5px;
 	float: left;
-}
-
-.project p {
-	font-size: 14px;
-	color: #636363;
-	max-width: 250px;
 }
 
 .projects {
@@ -78,6 +73,7 @@ h1{
 
 .image{
 	max-width: 200px;
+	min-height: 200px;
 	margin: 15px 0 0 0;
 }
 
