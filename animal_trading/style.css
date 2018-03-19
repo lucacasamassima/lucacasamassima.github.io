@@ -1,0 +1,42 @@
+/* CSS Document */
+
+html {
+    background: #fff;
+}
+
+body {
+    margin: auto;
+    width: 50%;
+    background-image: url(https://image.freepik.com/vettori-gratuito/vector-grunge-seamless-pattern-struttura-astratta-con-macchie-nere-sfondo-creativo-grafico_7586-207.jpg);
+}
+
+h3 {
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 5px 0
+		rgb(217, 219, 221);
+    padding: 10px;
+}
+
+img {
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+div {
+    background: white;
+}
+
+p {
+    font-style: italic;
+}
+
+.content {
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    text-align: justify;
+}
