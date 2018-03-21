@@ -126,8 +126,8 @@ h1{
 	}
 
 	.image{
-		width: 150px;
-		height: 130px;
+		width: 180px;
+		height: 180px;
 		margin: 10px 0 0 0;
 	}
 
@@ -162,12 +162,6 @@ h1{
 		font-size: 14px;
 		padding: 10px 0;
 		margin: 0 -6px;
-	}
-
-	.image{
-		width: 230px;
-		height: 230px;
-		margin: 5px 0 0 0;
 	}
 
 	.heading{
