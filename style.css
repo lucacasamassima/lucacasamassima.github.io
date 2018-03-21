@@ -2,170 +2,167 @@
 
 
 body {
-	margin: 0;
-	padding: 0;
-	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
 }
 
-
-.nav{
-	background-color: #ffffff;
-	color: #000000;
-	list-style: none;
-	text-align: right;
-	padding: 20px 0 20px 0;
+.nav {
+    background-color: #ffffff;
+    color: #000000;
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 20px 0;
 }
 
 .nav li {
-	display: inline-block;
-	padding: 0 25px 0 25px;
-	font-size: 14px;
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 14px;
 }
 
-.nav li a{
-	text-decoration: none;
-	color: #000000;
+.nav li a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .nav li a:hover {
-	color: #c1c1c1;
+    color: #c1c1c1;
 }
 
-.logo_text{
-	color: #000000;
-	float:left;
-	padding-left: 25px;
-	font-size: 16px;
-	font-weight: bold;
+.logo_text {
+    color: #000000;
+    float: left;
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .banner {
-	width: 100%;
-	display: block;
+    width: 100%;
+    display: block;
 }
 
-.banner .banner-image{
-	width: 100%;
-	max-height: 380px;
+.banner .banner-image {
+    width: 100%;
+    max-height: 380px;
 }
 
-.project{
-	width: 290px;
-	height: 280px;
-	border: 1px solid #c1c1c1;
-	margin: 20px 10px;
-	padding: 0 5px;
-	float: left;
+.project {
+    width: 290px;
+    height: 280px;
+    border: 1px solid #c1c1c1;
+    margin: 20px 10px;
+    padding: 0 5px;
+    float: left;
 }
 
 .projects {
-	width: 1000px;
-	margin: 0 auto;
+    width: 1000px;
+    margin: 0 auto;
 }
 
-h1{
-	font-size: 16px;
-	font-weight: bold;
-	background-color: #c1c1c1;
-	color: #ffffff;
-	padding: 10px 0;
-	margin: 0 -6px;
+h1 {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #c1c1c1;
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 0 -6px;
 }
 
-.image{
-	max-width: 200px;
-	max-height: 200px;
-	margin: 15px 0 0 0;
+.image {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 15px 0 0 0;
 }
 
-.heading{
-	text-align: center;
-	font-size: 25px;
-	color: #c1c1c1;
-	margin: 100px 0 50px 0;
+.heading {
+    text-align: center;
+    font-size: 25px;
+    color: #c1c1c1;
+    margin: 100px 0 50px 0;
 }
 
 .image:hover {
-	opacity: 0.2;
-	max-width: 200px;
-	margin-top: 15px;
+    opacity: 0.2;
+    max-width: 200px;
+    margin-top: 15px;
 }
 
-@media screen and (max-width: 510px){
+@media screen and (max-width: 510px) {
 
-	.nav{
-		padding: 10px 0 10px 0;
-	}
+    .nav {
+        padding: 10px 0 10px 0;
+    }
 
-	.nav li {
-		padding: 0 10px 0 10px;
-		font-size: 7px;
-	}
+    .nav li {
+        padding: 0 10px 0 10px;
+        font-size: 7px;
+    }
 
-	.logo_text{
-		font-size: 8px;
-		padding-left: 8px;
-	}
+    .logo_text {
+        font-size: 8px;
+        padding-left: 8px;
+    }
 
+    .project {
+        width: 250px;
+        height: 240px;
+        margin: 20px 10px;
+        padding: 0 5px;
+    }
 
-	.project{
-		width: 250px;
-		height: 240px;
-		margin: 20px 10px;
-		padding: 0 5px;
-	}
+    .projects {
+        width: 250px;
+    }
 
-	.projects {
-		width: 250px;
-	}
+    h1 {
+        font-size: 12px;
+        padding: 10px 0;
+        margin: 0 -6px;
+    }
 
-	h1{
-		font-size: 12px;
-		padding: 10px 0;
-		margin: 0 -6px;
-	}
+    .image {
+        width: 180px;
+        height: 180px;
+        margin: 10px 0 0 0;
+    }
 
-	.image{
-		width: 180px;
-		height: 180px;
-		margin: 10px 0 0 0;
-	}
-
-	.heading{
-		font-size: 15px;
-		margin: 60px 0 30px 0;
-	}
-
+    .heading {
+        font-size: 15px;
+        margin: 60px 0 30px 0;
+    };
 }
 
-@media screen and (max-height: 400px){
+@media screen and (max-height: 400px) {
 
-	.nav{
-		padding: 10px 0 10px 0;
-	}
+    .nav {
+        padding: 10px 0 10px 0;
+    }
 
-	.nav li {
-		padding: 0 10px 0 10px;
-		font-size: 10px;
-	}
+    .nav li {
+        padding: 0 10px 0 10px;
+        font-size: 10px;
+    }
 
-	.logo_text{
-		font-size: 12px;
-		padding-left: 10px;
-	}
+    .logo_text {
+        font-size: 12px;
+        padding-left: 10px;
+    }
 
-	.projects {
-		width: 300px;
-	}
+    .projects {
+        width: 300px;
+    }
 
-	h1{
-		font-size: 14px;
-		padding: 10px 0;
-		margin: 0 -6px;
-	}
+    h1 {
+        font-size: 14px;
+        padding: 10px 0;
+        margin: 0 -6px;
+    }
 
-	.heading{
-		font-size: 20px;
-		margin: 60px 0 30px 0;
-	}
+    .heading {
+        font-size: 20px;
+        margin: 60px 0 30px 0;
+    };
 }
