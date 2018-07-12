@@ -1,0 +1,68 @@
+div a { text-decoration: none; color: #6C7482; }
+
+ul {
+	width: 288px;
+	height: 100%;
+	margin: 0;
+        padding: 0;
+        position: relative;
+        list-style: none;
+}
+ 
+ul li {
+        color: #000;
+        width: 258;
+        height: 35px;
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 0;
+        padding-bottom: 0;
+        left: 0;
+        right: 0;
+        position: relative;
+	}
+ 
+ul li:not(.active) {
+        background: #E6E6E6;
+        transition: left 0.5s, background 1s, color 1s;
+        -webkit-transition: left 0.5s, background 1s, color 1s;
+        -moz-transition: left 0.5s, background 1s, color 1s;
+        border-left: 10px solid #21D561;
+        padding-top: 10px;
+        left: -10px;
+	font-size: 23px;
+}
+
+ul li.active {
+        width: 258px;
+        border-top: 0;
+        border-left: 10px solid #21D561;
+        background: #3B383B;
+        color: #FFF;
+	font-size: 23px;
+}
+
+ul a:hover {
+        color: #FFF;
+	font-size: 23px;
+}
+ 
+ul a:hover > li:not(.active) {
+        background: #3B383B;
+        left: 0px;
+        color: #FFF;
+	font-size: 23px;
+}
+
+body {
+width: 100%;
+height: 100%;
+margin: 00px 00px 00px 00px;
+background-size:100% 100%;
+}
+
+.spazio
+{
+word-spacing: 200px;
+}
