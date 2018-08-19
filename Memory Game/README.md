@@ -26,4 +26,4 @@ The game ends once all cards have been correctly matched, time is over or user l
 
 ## Udacity Resources:
 
-* [Project Specification](https://review.udacity.com/#!/rubrics/591/view) - Project Specification
+* [Project Specification](https://review.udacity.com/#!/rubrics/591/view)
