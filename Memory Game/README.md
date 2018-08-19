@@ -14,15 +14,15 @@ The game is started when the player flips two cards.
 
 On each turn:
 
-The player flips one card over to reveal its underlying symbol.
+* The player flips one card over to reveal its underlying symbol.
 
-The player then turns over a second card, trying to find the corresponding card with the same symbol.
+* The player then turns over a second card, trying to find the corresponding card with the same symbol.
 
-If the cards match, both cards stay flipped over.
+* If the cards match, both cards stay flipped over.
 
-If the cards do not match, both cards are returned to their initial hidden state.
+* If the cards do not match, both cards are returned to their initial hidden state.
 
-The game ends once all cards have been correctly matched, time is over or user loose all lives.
+* The game ends once all cards have been correctly matched, time is over or user loose all lives.
 
 ## Udacity Resources:
 
