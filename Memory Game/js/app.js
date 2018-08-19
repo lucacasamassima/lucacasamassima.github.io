@@ -144,7 +144,6 @@ function openedCard() {
             openedCards.forEach(matched);
             openedCards = [];
             matchedCards += 2;
-            console.log(matchedCards);
             //if all of cards found their pair then display popup window with congratulations
             if (matchedCards == 16) {
                 endOfGame('win');
