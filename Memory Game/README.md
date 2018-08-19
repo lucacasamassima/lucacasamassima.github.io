@@ -1,88 +1,29 @@
-# Project Title
+# Memory Game Project
 
-One Paragraph of project description goes here
+This game was built as Udacity Course project. The Memory Game Project is all about demonstrating your mastery of HTML, CSS and JavaScript.
 
-## Getting Started
+## How to play:
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+https://lucacasamassima.github.io/Memory%20Game/index.html
 
-### Prerequisites
+### Instructions:
 
-What things you need to install the software and how to install them
+The game board consists of sixteen cards shuffled in a grid. The deck is made of the eight pairs of cards, each with different symbols on one side.
 
-```
-Give examples
-```
+The game is started when the player flips two cards.
 
-### Installing
+On each turn:
 
-A step by step series of examples that tell you how to get a development env running
+The player flips one card over to reveal its underlying symbol.
 
-Say what the step will be
+The player then turns over a second card, trying to find the corresponding card with the same symbol.
 
-```
-Give the example
-```
+If the cards match, both cards stay flipped over.
 
-And repeat
+If the cards do not match, both cards are returned to their initial hidden state.
 
-```
-until finished
-```
+The game ends once all cards have been correctly matched, time is over or user loose all lives.
 
-End with an example of getting some data out of the system or using it for a little demo
+## Udacity Resources:
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+* [Project Specification](https://review.udacity.com/#!/rubrics/591/view) - Project Specification
