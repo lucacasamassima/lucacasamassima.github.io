@@ -1,97 +1,131 @@
+<!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title>Memory Game</title>
+    <title>Matching Game</title>
     <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" media="screen and (min-width: 550px)" href="css/responsive.css">
 </head>
-<body background="http://www.reactiongifs.com/r/cheering_minions.gif">
+
+<body>
 
     <div class="container">
         <header>
-            <h1>Memory Game</h1>
+            <h1>Matching Game</h1>
         </header>
 
         <section class="score-panel">
-        	<ul class="stars">
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        		<li><i class="fa fa-star"></i></li>
-        	</ul>
+            <div class="lives">
+                <p>Lives:</p>
+                <ul class="stars">
+                    <li id="star1" class="star"><i class="fa fa-star"></i></li>
+                    <li id="star2" class="star"><i class="fa fa-star"></i></li>
+                    <li id="star3" class="star"><i class="fa fa-star"></i></li>
+                </ul>
+            </div>
 
-        	<span class="moves">0</span> Moves
+            <div class="moves">
+                <p>
+                    <span class="moves-elem">Moves: </span>
+                    <span id="moves-number" class="moves-elem"></span>
+                </p>
+            </div>
 
-          <div id="timer">00:00:00</div>
-
-            <div class="restart">
-              <button type="button" class="btn btn-info btn-sm">
-        		<i class="fa fa-repeat"></i>
-            </button>
-        	</div>
+            <div id="timer" class="timer">
+                <p>
+                    <span id='timer-time' class='timer-elem'>Time: </span>
+                    <span id='timer-mins' class='timer-elem'></span>
+                    <span id='timer-mins-text' class='timer-elem'> mins </span>
+                    <span id='timer-secs' class='timer-elem'></span>
+                    <span id='timer-secs-text' class='timer-elem'> secs</span>
+                </p>
+            </div>
+            <!-- restart game button (keyboard shortcut: alt + r) -->
+            <div class="restart" onclick=startGame() accesskey="r">
+                <i class="fa fa-repeat"></i>
+            </div>
         </section>
 
-        <ul class="deck">
-            <li class="card">
+        <ul class="deck" id="card-deck">
+            <li class="card diamond">
                 <i class="fa fa-diamond"></i>
             </li>
-            <li class="card">
+            <li class="card plane">
                 <i class="fa fa-paper-plane-o"></i>
             </li>
-            <li class="card">
+            <li class="card anchor">
                 <i class="fa fa-anchor"></i>
             </li>
-            <li class="card">
+            <li class="card bolt">
                 <i class="fa fa-bolt"></i>
             </li>
-            <li class="card">
+            <li class="card cube">
                 <i class="fa fa-cube"></i>
             </li>
-            <li class="card">
+            <li class="card anchor">
                 <i class="fa fa-anchor"></i>
             </li>
-            <li class="card">
+            <li class="card leaf">
                 <i class="fa fa-leaf"></i>
             </li>
-            <li class="card">
+            <li class="card bicycle">
                 <i class="fa fa-bicycle"></i>
             </li>
-            <li class="card">
+            <li class="card diamond">
                 <i class="fa fa-diamond"></i>
             </li>
-            <li class="card">
+            <li class="card bomb">
                 <i class="fa fa-bomb"></i>
             </li>
-            <li class="card">
+            <li class="card leaf">
                 <i class="fa fa-leaf"></i>
             </li>
-            <li class="card">
+            <li class="card bomb">
                 <i class="fa fa-bomb"></i>
             </li>
-            <li class="card">
+            <li class="card bolt">
                 <i class="fa fa-bolt"></i>
             </li>
-            <li class="card">
+            <li class="card bicycle">
                 <i class="fa fa-bicycle"></i>
             </li>
-            <li class="card">
+            <li class="card plane">
                 <i class="fa fa-paper-plane-o"></i>
             </li>
-            <li class="card">
+            <li class="card cube">
                 <i class="fa fa-cube"></i>
             </li>
         </ul>
     </div>
-    <div class="winPage closed">
-  <h1>Complimenti scema!</h1>
-  <p>Hai completato il gioco con <span class="movesCount">0</span> mosse e <span class="starsCount">0</span> stelle.</p>
-  <p>Il tuo tempo: <span class="finalTime"></span></p>
-  <p>Vuoi giocare di nuovo Annalisa?</p>
-  <button type="button" role="button" class="playAgain btn btn-info">Gioca di nuovo!</button>
-</div>
-</div>
 
-    <script src="js/app.js"></script>
+    <div id="alert-window" class="overlay">
+        <div id="alert" class="alert">
+            <div class="close-button">
+                <a class="close" href="#">×</a>
+            </div>
+            <h2></h2>
+            <div id="alert-paragraph-1" class="content-1">
+            </div>
+            <div id="alert-paragraph-2" class="content-2">
+                <p>You made <span id="finalMove"></span></p>
+                <p class="totalTime"><span id="totalTime"></span> </p>
+                <p>Lives left: <span id="starRating"></span></p>
+            </div>
+            <button id="play-again" onclick="playAgain()">
+                Play again
+            </button>
+        </div>
+    </div>
+
+    <script src="js/app.js">
+    </script>
 </body>
+
 </html>
