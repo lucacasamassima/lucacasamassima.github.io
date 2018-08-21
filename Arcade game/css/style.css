@@ -1,0 +1,59 @@
+/* {
+    border: 1px solid red !important;
+}*/
+
+body,
+div,
+h1,
+p, {
+    padding: 0;
+    margin: 0;
+    color: #036;
+}
+
+body {
+    text-align: center;
+}
+
+/*grid added to have the "desktop" effect on wider screen*/
+.grid {
+    max-width: 1170px;
+    width: 100%;
+    padding: 5px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    color: #b2c1d1;
+}
+
+p {
+    font-size: 20px;
+    color: #b2c1d1;
+}
