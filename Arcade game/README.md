@@ -1,6 +1,15 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+Description of the Game
+===============================
+The char boy try to find his friend. To do he needs to reach a score of 1200 points and pick-up the key and the heart. He has 3 lives at disposal for each game.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+How to play
+===============================
+* You move up, down, left and right char boy with the arrow keys.
+* Char boy has 3 lives at the beginning of the game.
+* Each time char boy reach the water she earns 100 point.
+* If char boy collides with a bug, she loose a life.
+* If char boy collides with a gem, she gain a life.
+* The char boy picks up the key and the heart colliding with them.
