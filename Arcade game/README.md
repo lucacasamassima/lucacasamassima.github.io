@@ -5,7 +5,7 @@ Frontend-nanodegree-arcade-game
 
 * [Description of the Game](#description-of-the-Game)
 * [How to play online](#how-to-play-online)
-* [How to play local](#how to play local)
+* [How to play local](#how-to-play-local)
 * [Instructions](#instructions)
 * [Credits](#credits)
 
