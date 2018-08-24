@@ -13,7 +13,7 @@ Frontend-nanodegree-arcade-game
 ## Description of the Game
 
 The char boy try to find his friend. To do he needs to reach a score of 1200 points and pick-up the key and the heart. He has 3 lives at disposal for each game.
-![Game Screen](img/screen.png "screen")
+![Game Screen](img/screen.jpg "screen")
 
 ## How to play online
 
