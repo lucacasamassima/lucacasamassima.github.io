@@ -4,7 +4,7 @@ Frontend-nanodegree-arcade-game
 ## Table of Contents
 
 * [Description of the Game](#Description-of-the-Game)
-* [How to play online](#How-to-play-online)
+* [How to play online](#how-to-play-online)
 * [Credits](#credits)
 
 ## Description of the Game
