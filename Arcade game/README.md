@@ -3,13 +3,17 @@ Frontend-nanodegree-arcade-game
 
 ## Table of Contents
 
-* [Description of the Game](#Description-of-the-Game)
+* [Description of the Game](#description-of-the-Game)
 * [How to play online](#how-to-play-online)
+* [How to play local](#how to play local)
+* [Instructions](#instructions)
 * [Credits](#credits)
+
 
 ## Description of the Game
 
 The char boy try to find his friend. To do he needs to reach a score of 1200 points and pick-up the key and the heart. He has 3 lives at disposal for each game.
+![Game Screen](img/screen.png "screen")
 
 ## How to play online
 
@@ -21,7 +25,7 @@ https://lucacasamassima.github.io/Arcade%20game/index.html
 * Open "index.html"
 * Enjoy the game
 
-### Instructions:
+### Instructions
 
 * You move up, down, left and right char boy with the arrow keys.
 * Char boy has 3 lives at the beginning of the game.
