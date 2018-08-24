@@ -17,3 +17,14 @@ https://lucacasamassima.github.io/Arcade%20game/index.html
 * If char boy collides with a bug, she loose a life.
 * If char boy collides with a gem, she gain a life.
 * The char boy picks up the key and the heart colliding with them.
+
+## How to play local 
+
+* Download the project
+* Open "index.html"
+* Enjoy the game
+
+## Credits:
+
+* Luca Casamassima
+* Udacity for the base code of the project
