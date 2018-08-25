@@ -52,8 +52,7 @@ var Player = function(x, y) {
 };
 
 Player.prototype.update = function() {
-    this.x = this.x;
-    this.y = this.y;
+     this.y = this.y;
 };
 
 Player.prototype.reset = function() {
@@ -88,7 +87,7 @@ Player.prototype.handleInput = function(allowedKeys) {
             } else if (this.y === this.height) {
                 this.y = 0;
                 this.score += 100;
-                document.getElementById("myScoreDivId").innerHTML = player.score;
+                document.getElementById("myScoreDivId").innerHTML = this.score;
             } else {
                 this.reset();
             }
@@ -112,7 +111,7 @@ Player.prototype.collision = function() {
     } else {
         this.lives = 0;
     }
-    document.getElementById("myLivesDivId").innerHTML = player.lives;
+    document.getElementById("myLivesDivId").innerHTML = this.lives;
 };
 
 
@@ -138,7 +137,7 @@ Player.prototype.render = function() {
 };
 
 //Gem class
-var Gem = function(x, y) {
+var Gem = function() {
     //the gem appears in a random position
     this.height = 70;
     this.width = 70;
@@ -200,7 +199,7 @@ Orangegem.prototype.reset = function() {
 
 Gem.prototype.update = function() {
     this.x = this.x;
-    this.y = this.y;
+
 };
 
 //Item class
@@ -218,15 +217,6 @@ var Item = function(x, y) {
 var Key = function(x, y) {
     Item.call(this, x, y);
     this.sprite = 'images/key.png';
-};
-
-Key.prototype.move = function(x, y) {
-    //make the heart move 1 box on the right or left in case with gem collision
-    if (this.x > this.width) {
-        this.x -= 101;
-    } else {
-        this.x += 101;
-    }
 };
 
 Key.prototype.render = function() {
